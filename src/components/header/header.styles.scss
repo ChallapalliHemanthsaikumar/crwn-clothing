@@ -5,10 +5,23 @@
   justify-content: space-between;
   margin-bottom: 25px;
 
+  
+  
+
   .logo-container {
     height: 100%;
     width: 70px;
     padding: 25px;
+
+    &:hover{
+      cursor: pointer;
+      & .logo{
+        transform: scale(1.5);
+        transition: transform 10s cubic-bezier(3.65, 3.65, 3.65, 3.95);
+      }
+  
+     
+    }
   }
 
   .options {
